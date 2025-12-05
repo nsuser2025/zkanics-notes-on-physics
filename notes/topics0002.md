@@ -29,15 +29,29 @@ $u \equiv$ 体積流量/断面積: 表面流速（superficial velocity）[m/s]
 <p>
 空隙率は実験値から求める必要があるが, ランダムな充填であれば0.36-0.4が使われる.
 規則配列ならより密につまるので更に小さくなる.
+
 </p>
 
 ---
 ### 充填層を形成する固体粒子形状と生じる流れ
 
 <p>
-1. 粒間空隙を通る流れ $\rightarrow$ Ergun式
+1. 粒間空隙を通る流れ $\rightarrow$ Ergun式で記述できる.
 </p>
 <p>
-2. ペレットを流れる短絡流 $\rightarrow$ 実効圧損はErgun式の値より低くなる傾向がある。
+2. ペレットを流れる短絡流 $\rightarrow$ 実効圧損はErgun式の値より低くなる傾向がある.
 </p>
 
+---
+### Brinkman-Forchheimer モデル
+
+<p>
+Navier–Stokes方程式を多孔質体に適用するために修正したモデル.
+</p>
+
+$$
+\begin{align}
+\frac{\Delta p}{L} &= \frac{\mu}{K} u
++ \frac{\rho F^{2}}{\sqrt{K}}
+\end{align}
+$$
