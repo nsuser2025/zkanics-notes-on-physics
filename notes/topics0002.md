@@ -17,7 +17,7 @@ $\mu$: 流体動粘性係数 [Pa$\cdot$s]
 $\rho$: 流体密度 [kg/m$^{3}$]
 $\epsilon$: 空隙率（0.36-0.40）
 $D_{p}$: ペレット代表粒径 [m]
-$u$: 表面流速（superficial velocity）$\equiv$ 体積流量/断面積 [m/s]
+$u \equiv$ 体積流量/断面積: 表面流速（superficial velocity）[m/s]
 
 <p>
 第1項: 粘性抵抗項 ... 低流速な層流領域で支配的な抵抗で、粘性摩擦に起因する（Kozeny-Carmanの式）。
@@ -29,4 +29,7 @@ $u$: 表面流速（superficial velocity）$\equiv$ 体積流量/断面積 [m/s]
 ---
 ### 充填層を形成する固体粒子形状と生じる流れ
 
+<p>
+
+</p>
 
