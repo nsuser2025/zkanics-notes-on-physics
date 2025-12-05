@@ -3,7 +3,7 @@
 <p>
 固体粒子で満たされた充填層（packed bed）の圧損はErgun式で評価される。
 </p>
-\\\
+
 $$
 \begin{align}
 \frac{\Delta P}{L}
@@ -11,7 +11,7 @@ $$
 +\frac{1.75 \rho (1-\epsilon)}{D\_{p} \epsilon^{3}}u^{2} \tag{1}
 \end{align}
 $$
-\\\
+
 $\Delta p / L$: 圧力勾配 [Pa/m]
 $\mu$: 流体動粘性係数 [Pa$\cdot$s]
 $\rho$: 流体密度 [kg/m$^{3}$]
