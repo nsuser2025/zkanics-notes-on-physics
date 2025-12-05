@@ -56,13 +56,13 @@ $$
 $$
 
 $K$: 透過率（permeability）[m$^{2}$]
-$F$: 
+$F$: 慣性係数 [reduced unit]
 
 <p>
 第1項: Darcy項
 </p>
 <p>
-第2項: Forchheimer項 ... $\beta \equiv F/\sqrt{K}$ を Forcheimer係数と言われ、単位はm$^{-1}$.
+第2項: Forchheimer項 ... Forcheimer係数 $\beta \equiv F/\sqrt{K}$ [m$^{-1}$].
 </p>
 <p>
 第3項: Brinkman項
