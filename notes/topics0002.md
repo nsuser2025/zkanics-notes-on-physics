@@ -7,7 +7,8 @@
 $$
 \begin{align}
 \frac{\Delta P}{L}
-&=
+&= \frac{150\mu (1-\epsilon)^{2}}{D^{2}_{p}\epsilon^{3}}
++ 
 \end{align}
 $$
 
