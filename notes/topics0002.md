@@ -30,6 +30,9 @@ $u \equiv$ 体積流量/断面積: 表面流速（superficial velocity）[m/s]
 ### 充填層を形成する固体粒子形状と生じる流れ
 
 <p>
-
+1. 粒間空隙を通る流れ $\rightarrow$ Ergun式
+</p>
+<p>
+2. ペレットを流れる短絡流 $\rightarrow$ 実効圧損はErgun式の値より低くなる傾向がある。
 </p>
 
