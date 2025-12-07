@@ -17,7 +17,7 @@ Bloch functions are normalized to one unit cell
 
 $$
 \begin{align}
-\int_{V} d{\bf r}\hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r})\psi_{n{\bf k}}({\bf r}) &= \delta\_{mn} \tag{2}
+\int_{V} d{\bf r}\hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r})
 \end{align}
 $$
 
