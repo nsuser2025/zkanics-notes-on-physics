@@ -10,6 +10,7 @@ markdown_contents = {}
 note_paths = {
     "topics0001": "notes/topics0001.md",
     "topics0002": "notes/topics0002.md",
+    "topics0003": "notes/topics0003.md",
 }
 
 for key, path in note_paths.items():
