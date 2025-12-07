@@ -232,19 +232,27 @@ since the 2nd term is expected to be zero.
 
 #### Divergence Theorem
 
+<p>
 For arbitrary vector ${\bf a}$, the divergence
-theorem is expressed as follows,
-\begin{eqnarray}
-\int (\nabla \cdot {\bf a}) \enskip d{\bf V}
-&=& \int ({\bf a}\cdot {\bf n}) \enskip d{\bf S}
-\label{eq:divergence_theorem}
-\end{eqnarray}
+theorem is expressed as follows,    
+</p>
+
+$$
+\begin{align}
+\int (\nabla \cdot {\bf a}) \enskip d{\bf V} &= \int ({\bf a}\cdot {\bf n}) \enskip d{\bf S}
+\end{align}
+$$
+
+<p>
 where ${\bf n}$ is the outward-pointing normal.
 We can define the vector ${\bf a}$ as $\phi{\bf b}$,
 where $\phi$ and ${\bf b}$ are a scalar function 
 and constant vector, respectively.
 Then Eq.~\ref{eq:divergence_theorem} 
-becomes,
+becomes,    
+</p>
+
+$$
 \begin{eqnarray}
 {\bf b} \cdot 
 \int (\nabla \phi) \enskip d{\bf V}
@@ -252,15 +260,20 @@ becomes,
 \enskip d{\bf S}.
 \label{eq:divergence_theorem_2}
 \end{eqnarray}
+$$
+
+<p>
 From Eq.~\ref{eq:divergence_theorem_2},
-the relation used in Blount1962 is obtained.
-\begin{eqnarray}
+the relation used in Blount1962 is obtained.    
+</p>
+
+$$
+\begin{align}
 \int (\nabla \phi) \enskip d{\bf V}
 &=& \int ({\phi}{\bf n}) 
 \enskip d{\bf S}.
-\label{eq:divergence_theorem_3}
-\end{eqnarray}
-
+\end{align}
+$$
 </p>
 
 ---
