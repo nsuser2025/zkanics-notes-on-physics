@@ -239,7 +239,7 @@ theorem is expressed as follows,
 
 $$
 \begin{align}
-\int (\nabla \cdot {\bf a}) \enskip d{\bf V} &= \int ({\bf a}\cdot {\bf n}) \enskip d{\bf S}
+\int (\nabla \cdot {\bf a}) ~d{\bf V} &= \int ({\bf a}\cdot {\bf n}) ~d{\bf S}
 \end{align}
 $$
 
@@ -265,11 +265,8 @@ the relation used in Blount1962 is obtained.
 
 $$
 \begin{align}
-\int (\nabla \phi) \enskip d{\bf V}
-&=& \int ({\phi}{\bf n}) 
-\enskip d{\bf S}.
+\int (\nabla \phi) \enskip d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S}.
 \end{align}
 $$
-</p>
 
 ---
