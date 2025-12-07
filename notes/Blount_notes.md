@@ -62,14 +62,21 @@ $$
 \end{align}
 $$
 
+<p>
 When deriving Eq.~\ref{eq:braket_norm}, the following property 
-of Bloch function is used.
-\begin{eqnarray}
-\psi_{n{\bf k}}({\bf r}+{\bf R}) 
-&=& e^{i{\bf k}\cdot{\bf R}} \psi_{n{\bf k}}({\bf r})
-\label{eq:bloch_property}
-\end{eqnarray}
-Kronecker delta formula is expressed as,
+of Bloch function is used.    
+</p>
+
+$$
+\begin{align}
+\psi_{n{\bf k}}({\bf r}+{\bf R}) &= e^{i{\bf k}\cdot{\bf R}} \psi_{n{\bf k}}({\bf r}) \tag{4}
+\end{align}
+$$
+
+<p>
+Kronecker delta formula is expressed as,    
+</p>
+
 \begin{eqnarray}
 \frac{1}{N} \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}} 
 &=& \delta_{{\bf kk}'} 
