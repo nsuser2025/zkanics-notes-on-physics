@@ -229,9 +229,7 @@ And Eq. \ref{eq:Deriv_Step1} becomes
 $$
 \begin{align}
 {\bf r} \ket{{\bf 0}m} &= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' 
-\lbrace
-i\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'}\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}　
-\rbrace
+\lbrace i\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'}\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}} \rbrace
 \end{align}
 $$
 
