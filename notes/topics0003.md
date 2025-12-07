@@ -115,7 +115,12 @@ Bra-ket notation is sometimes written as$^{1}$
 &=& e^{i{\bf k}\cdot{\bf r}} \ket{u_{n{\bf k}}}.
 \label{eq:braket_marzari}
 \end{eqnarray}
-This notation leads to the inconsistent with Eq.~\ref{eq:braket_ryo}
+
+<p>
+This notation leads to the inconsistent with Eq.~\ref{eq:braket_ryo}    
+</p>
+
+$$
 \begin{eqnarray}
 \ket{\psi_{n{\bf k}'}}
 &=& \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r} \nonumber \\
@@ -125,6 +130,8 @@ This notation leads to the inconsistent with Eq.~\ref{eq:braket_ryo}
 =e^{i{\bf k}\cdot{\bf r}}\ket{u_{n{\bf k}}}
 \label{eq:inconsistency_of_marzari}
 \end{eqnarray}
+$$
+
 We, thus, employ the bra-ket notation of Eq.~\ref{eq:braket_ryo}
 for the formulation of Wannier functions.
 
