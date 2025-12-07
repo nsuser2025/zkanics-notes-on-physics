@@ -253,13 +253,9 @@ becomes,
 </p>
 
 $$
-\begin{eqnarray}
-{\bf b} \cdot 
-\int (\nabla \phi) \enskip d{\bf V}
-&=& {\bf b} \cdot \int ({\phi}{\bf n}) 
-\enskip d{\bf S}.
-\label{eq:divergence_theorem_2}
-\end{eqnarray}
+\begin{align}
+{\bf b} \cdot \int (\nabla \phi) ~d{\bf V} &= {\bf b} \cdot \int ({\phi}{\bf n}) ~d{\bf S}.
+\end{align}
 $$
 
 <p>
