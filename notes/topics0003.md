@@ -1,4 +1,4 @@
-### Blount Identity
+### Bra-Ket Notation
 
 <p>
 Bloch function is expressed as follows
@@ -102,8 +102,14 @@ N \delta_{{\bf kk}'} &\rightarrow& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')
 \end{align}
 $$
 
-\section{Bra-ket notation of Marzari et al. \cite{PhysRevB.56.12847}}
-Bra-ket notation is sometimes written as~\cite{PhysRevB.56.12847}
+---
+
+#### Bra-ket notation of Marzari et al.
+
+<p>
+Bra-ket notation is sometimes written as$^{1}$    
+</p>
+
 \begin{eqnarray}
 \ket{\psi_{n{\bf k}}}
 &=& e^{i{\bf k}\cdot{\bf r}} \ket{u_{n{\bf k}}}.
