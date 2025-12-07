@@ -194,7 +194,7 @@ e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 
 $$
 \begin{align}
-\hat{\bf r} \ket{{\bf 0}m} &= {\bf r} \ket{{\bf 0}m} \\
+\hat{\bf r} \ket{{\bf 0}m} &= {\bf r} \ket{{\bf 0}m} \\\\
 &= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' ~{\bf r}\ket{\psi_{{\bf k}'m}} 
 \end{align}
 $$
