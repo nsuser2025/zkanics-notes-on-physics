@@ -194,29 +194,41 @@ e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 
 $$
 \begin{align}
-\hat{\bf r} \ket{{\bf 0}m} &= {\bf r} \ket{{\bf 0}m}
+\hat{\bf r} \ket{{\bf 0}m} = {\bf r} \ket{{\bf 0}m}
 = \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' ~{\bf r}\ket{\psi_{{\bf k}'m}} 
 \end{align}
 $$
 
-The gradient of the Bloch orbital with respect to ${\bf k}$ is
-\begin{eqnarray}
+<p>
+The gradient of the Bloch orbital with respect to ${\bf k}$ is    
+</p>
+
+$$
+\begin{align}
 \nabla_{{\bf k}'} \ket{\psi_{{\bf k}'m}}
-&=& \nabla_{{\bf k}'} (\exp(i{\bf k}'\cdot{\bf r}) 
-\ket{u_{{\bf k}'m}}) 
-\nonumber \\
-&=& i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r})
-\nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}.
-\label{eq:Deriv_Step2}
-\end{eqnarray}
-Solvint Eq. \ref{eq:Deriv_Step2} yields
+&= \nabla_{{\bf k}'} (\exp(i{\bf k}'\cdot{\bf r}) \ket{u_{{\bf k}'m}}) \\\\ 
+&= i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}
+\end{align}
+$$
+
+<p>
+Solvint Eq. \ref{eq:Deriv_Step2} yields    
+</p>
+
+$$
 \begin{eqnarray}
 {\bf r}\ket{\psi_{{\bf k}'m}}
 &=& i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
 \ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}.
 \label{eq:Deriv_Step3}
 \end{eqnarray}
-And Eq. \ref{eq:Deriv_Step1} becomes
+$$
+
+<p>
+And Eq. \ref{eq:Deriv_Step1} becomes    
+</p>
+
+$$
 \begin{eqnarray}
 {\bf r} \ket{{\bf 0}m} 
 &=& \frac{V}{(2\pi)^{3}} \int_{\rm BZ}
@@ -224,11 +236,14 @@ d{\bf k}' \biggl\{
 i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
 \ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}
 \biggr\}.
-\label{eq:Deriv_Step4}
 \end{eqnarray}
+$$
+
+<p>
 We focus our attention on 
 the first term in Eq.~\ref{eq:Deriv_Step4}
-since the 2nd term is expected to be zero.
+since the 2nd term is expected to be zero.    
+</p>
 
 ---
 
