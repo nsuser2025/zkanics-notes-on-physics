@@ -2,19 +2,26 @@
 
 <p>
 Bloch function is expressed as follows
-\begin{eqnarray}
-\psi_{n{\bf k}}({\bf r})
-&=& e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}
-({\bf r}) \label{eq:bloch_function}
-\end{eqnarray}
+</p>
+
+$$
+\begin{align}
+\psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \tag{1}
+\end{align}
+$$
+
+<p>
 where $u_{n{\bf k}}$ has the periodicity of Hamiltonian.
-Bloch functions are normalized to one unit cell
-\begin{eqnarray}
+Bloch functions are normalized to one unit cell    
+</p>
+
+$$
+\begin{align}
 \int_{V} d{\bf r}\hspace{0.5mm} 
-\psi^{*}_{m{\bf k}}({\bf r})\psi_{n{\bf k}}({\bf r})
-&=& \delta_{mn}, 
-\label{eq:bloch_norm_01}
-\end{eqnarray}
+\psi^{*}_{m{\bf k}}({\bf r})\psi_{n{\bf k}}({\bf r}) &= \delta_{mn} \tag{2}
+\end{align}
+$$
+
 where $V$ is the real-space primitive cell volume.
 When the number of the primitive cell in the supercell is $N$,
 the volume of the supercell, $V_{\rm all}$, is $V_{\rm all}=NV$.
