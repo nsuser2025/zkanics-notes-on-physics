@@ -35,7 +35,7 @@ $$
 $$
 
 <p>
-This notation is different from one in Ref.~\cite{PhysRevB.56.12847}.    
+This notation is different from one in Ref.(PhysRevB.56.12847).    
 </p>
 
 $$
@@ -45,8 +45,8 @@ $$
     \braket{{\bf r}|{\bf r}'}  \\\\
 &= \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r})
     \psi_{n{\bf k}'}({\bf r}') 
-    \delta({\bf r}-{\bf r}') \nonumber \\
-&=& \int d{\bf r} \hspace{0.5mm} 
+    \delta({\bf r}-{\bf r}') \\\\
+&= \int d{\bf r} \hspace{0.5mm} 
     \psi^{*}_{m{\bf k}}({\bf r})
     \psi_{n{\bf k}'}({\bf r}) \nonumber \\
 &=& \sum_{\bf R} \int_{V} d{\bf r} \hspace{0.5mm}
@@ -57,7 +57,6 @@ $$
     \psi_{n{\bf k}'}({\bf r}) \nonumber \\
 &=& N \delta_{{\bf kk'}}\delta_{mn} \nonumber \\
 &=& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
-    \label{eq:braket_norm}
 \end{align}
 $$
 
@@ -81,18 +80,22 @@ Kronecker delta formula is expressed as,
 &=& \delta_{{\bf kk}'} 
 \label{eq:Kronecker_delta}
 \end{eqnarray}
-Kronecker delta is switched to Dirac delta function using the following correspondence,
-\begin{eqnarray}
-\sum_{\bf k} \delta_{{\bf kk}'}
-= 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 \nonumber \\
+
+<p>
+Kronecker delta is switched to Dirac delta function using the following correspondence,    
+</p>
+
+$$
+\begin{align}
+\sum_{\bf k} \delta_{{\bf kk}'} = 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 \\\\
 \frac{1}{\Delta k_{x} \Delta k_{y} \Delta k_{z}}
 \sum_{\bf k} \delta_{{\bf kk}'} \Delta k_{x} \Delta k_{y} \Delta k_{z} 
 &=& \sum_{\bf k} \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} \Delta {\bf k} \nonumber \\
 \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} 
 = \frac{NV}{(2\pi)^{3}} \delta_{{\bf kk}'} &\rightarrow& \delta({\bf k}-{\bf k}')  \nonumber \\
 N \delta_{{\bf kk}'} &\rightarrow& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')
-\label{eq:Kronecker_dirac_delta}
-\end{eqnarray}
+\end{align}
+$$
 
 \section{Bra-ket notation of Marzari et al. \cite{PhysRevB.56.12847}}
 Bra-ket notation is sometimes written as~\cite{PhysRevB.56.12847}
