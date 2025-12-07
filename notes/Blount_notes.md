@@ -22,24 +22,29 @@ $$
 \end{align}
 $$
 
+<p>
 where $V$ is the real-space primitive cell volume.
 When the number of the primitive cell in the supercell is $N$,
 the volume of the supercell, $V_{\rm all}$, is $V_{\rm all}=NV$.
-Bra-ket notation in this paper is related to 
-Bloch functions as follows, 
-\begin{eqnarray}
-\ket{\psi_{n{\bf k}}}
-&=& \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r}. \label{eq:braket_ryo}
-\end{eqnarray}
-This notation is different from one in Ref.~\cite{PhysRevB.56.12847}.
-\begin{eqnarray}
+Bra-ket notation in this paper is related to Bloch functions as follows,     
+</p>
+
+$$
+\begin{align}
+\ket{\psi_{n{\bf k}}} &= \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r} \tag{3} 
+\end{align}
+$$
+
+<p>
+This notation is different from one in Ref.~\cite{PhysRevB.56.12847}.    
+</p>
+
+$$
+\begin{align}
 \braket{\psi_{m{\bf k}}|\psi_{n{\bf k}'}}
-&=& \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} 
-    \psi^{*}_{m{\bf k}}({\bf r})
-    \psi_{n{\bf k}'}({\bf r}') 
-    \braket{{\bf r}|{\bf r}'}  \nonumber \\
-&=& \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} 
-    \psi^{*}_{m{\bf k}}({\bf r})
+&= \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}') 
+    \braket{{\bf r}|{\bf r}'}  \\\\
+&= \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r})
     \psi_{n{\bf k}'}({\bf r}') 
     \delta({\bf r}-{\bf r}') \nonumber \\
 &=& \int d{\bf r} \hspace{0.5mm} 
@@ -54,7 +59,9 @@ This notation is different from one in Ref.~\cite{PhysRevB.56.12847}.
 &=& N \delta_{{\bf kk'}}\delta_{mn} \nonumber \\
 &=& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
     \label{eq:braket_norm}
-\end{eqnarray}
+\end{align}
+$$
+
 When deriving Eq.~\ref{eq:braket_norm}, the following property 
 of Bloch function is used.
 \begin{eqnarray}
