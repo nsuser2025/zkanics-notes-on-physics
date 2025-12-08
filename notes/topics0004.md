@@ -17,11 +17,18 @@ $$
 #### IOZのLegendre多項式展開
 
 <p>
-$\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ とすると、
-${\bf e}_{2} = (\sin\theta_{2}, 0, \cos\theta_{2})$, 
-${\bf e}_{3} = (\sin\theta_{3}\cos\phi_{3}, \sin\theta_{3}\sin\phi_{3}, \cos\theta_{3})$
-となり、
+$\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ のときは $\cdots$
 </p>
+
+$$
+\begin{align}
+{\bf e}\_{2} &= (\sin\theta\_{2}, 0, \cos\theta\_{2}) \\\\ 
+{\bf e}\_{3} &= (\sin\theta\_{3}\cos\phi\_{3}, \sin\theta\_{3}\sin\phi\_{3}, \cos\theta\_{3}) \\\\
+\cos\theta\_{32} &= {\bf e}\_{2}\cdot{\bf e}\_{3} = 
+\end{align}
+$$
+
+---
 
 #### References
 
