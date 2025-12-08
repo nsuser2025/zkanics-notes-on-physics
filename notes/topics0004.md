@@ -49,11 +49,29 @@ Legendre多項式展開
 </p>
 
 $$
+\color{blue}{
 \begin{align}
 f(x) &= \sum^{\infty}\_{n=0} \hat f\_{n} P\_{n}(x) \tag{4} \\\\
 \hat f\_{n} &= \frac{2n+1}{2} \int^{1}\_{-1} dx ~f(x)P_{n}(x) \tag{5}
 \end{align}
+}
 $$
+
+<p>
+<span style="color:blue">
+Legendre多項式の直交性  
+</span>  
+</p>
+
+$$
+\color{blue}{
+\begin{align}
+\int^{1}\_{-1} dx ~P\_{n}(x) P\_{m}(x) = \frac{2}{2n+1} \delta\_{mn} \tag{6}
+\end{align}
+}
+$$
+
+
 
 ---
 
