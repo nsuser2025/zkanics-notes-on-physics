@@ -39,7 +39,7 @@ $$
 \braket{\psi_{m{\bf k}}|\psi_{n{\bf k}'}}
 &= \int d{\bf r} \int d{\bf r}' ~\psi^{*}\_{m{\bf k}}({\bf r}) 
    \psi\_{n{\bf k}'}({\bf r}') \braket{{\bf r}|{\bf r}'} \\\\
-&= \int d{\bf r} \int d{\bf r}' \psi
+&= \int d{\bf r} \int d{\bf r}' \psi^{*}
 \end{align}
 $$
 
