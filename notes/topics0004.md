@@ -153,6 +153,27 @@ $$
 \end{align}
 $$
 
+<p>
+<span style="color:blue">
+※ Numerical ReceipeのGauss-Legendre積分
+</span>
+</p>
+
+$$
+\color{blue}{
+\begin{align}
+\int^{x\_{2}}\_{x\_{1}} f(x) dx
+&= \sum^{N}\_{j=1} \omega\_{j} f(x\_{j}) \tag{15}
+\end{align}
+}
+$$
+
+<p>
+<span style="color:blue">
+$x_{1} \rightarrow -1$, $x_{2} \rightarrow 1$, $N \rightarrow n$, $\cos\theta \rightarrow x$
+</span>
+</p>
+
 
 ---
 
