@@ -96,6 +96,7 @@ $$
 \begin{align}
 P\_{j}(x\_{32})
 &= P\_{j}(x\_{2})P\_{j}(x\_{3}) + 2 \sum^{j}\_{m=-j}
+\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cosm\phi\_{3} \tag{9}
 \end{align}
 }
 $$
