@@ -173,21 +173,23 @@ $$
  = \delta\_{mn}\delta\_{{\bf RR}'}
 \end{align}
 $$
-\color{red}{
+
 <p>
 The following formula derived by Blount, 
 called Blount identity, 
 is necessary for the determination of Maximally 
 localized Wannier functions (MLWFs).   
 </p>
-}
+
 
 $$
+\color{red}{
 \begin{align}
 \braket{{\bf R}n|\hat {\bf r}|{\bf 0}m}
 &= i \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k} \exp(i{\bf k}\cdot{\bf R})
    \braket{u_{{\bf k}n}|\nabla_{\bf k}|u_{{\bf k}m}}
 \end{align}
+}
 $$
 
 <p>
