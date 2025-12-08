@@ -100,7 +100,7 @@ $$
 $$
 
 $$
-\begin{aling}
+\begin{align}
 \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} 
 = \frac{NV}{(2\pi)^{3}} \delta_{{\bf kk}'} \rightarrow \delta({\bf k}-{\bf k}')
 \end{align}
