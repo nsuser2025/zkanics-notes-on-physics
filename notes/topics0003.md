@@ -78,7 +78,7 @@ Kronecker delta formula is expressed as,
 \begin{eqnarray}
 \frac{1}{N} \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}} 
 &=& \delta_{{\bf kk}'} 
-\label{eq:Kronecker_delta}
+\tag{5}
 \end{eqnarray}
 
 <p>
