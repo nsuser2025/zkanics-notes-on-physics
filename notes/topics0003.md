@@ -175,10 +175,12 @@ $$
 $$
 
 <p>
+<span style="color:red">
 The following formula derived by Blount, 
 called Blount identity, 
 is necessary for the determination of Maximally 
-localized Wannier functions (MLWFs).   
+localized Wannier functions (MLWFs).
+</span>
 </p>
 
 
