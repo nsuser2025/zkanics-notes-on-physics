@@ -25,11 +25,10 @@ the volume of the supercell, $V_{\rm all}$, is $V_{\rm all}=NV$.
 Bra-ket notation in this paper is related to Bloch functions as follows,     
 </p>
 
-$$
-\begin{align}
-\ket{\psi_{n{\bf k}}} &= \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r} \tag{3} 
-\end{align}
-$$
+\begin{eqnarray}
+\ket{\psi_{n{\bf k}}} 
+&= \int d{\bf r} ~\psi_{n{\bf k}}({\bf r}) \ket{\bf r} \tag{3} 
+\end{eqnarray}
 
 <p>
 This notation is different from one in Ref.(PhysRevB.56.12847).    
