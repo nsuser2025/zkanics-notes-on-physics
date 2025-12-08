@@ -144,6 +144,16 @@ f\_{i} &= \sum^{N-1}\_{n=0} \hat f\_{n} P\_{n}(x\_{i}) \tag{12}
 \end{align}
 $$
 
+$$
+\begin{align}
+\sum^{N}\_{i=1} \omega_{i} P\_{n}(x\_{i})P\_{m}(x\_{i}) 
+&= \frac{2}{2n+1} \delta\_{nm} \tag{13} \\\\
+\sum^{N-1}\_{n=0} \frac{2n+1}{2} P\_{n}(x\_{i}) P\_{n}(x\_{j}) 
+&= \omega^{-1}\_{i} \delta\_{ij} \tag{14}
+\end{align}
+$$
+
+
 ---
 
 #### References
