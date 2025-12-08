@@ -22,12 +22,17 @@ $\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ のときは $\cdots$
 
 $$
 \begin{align}
-&{\bf e}\_{2} = (\sin\theta\_{2}, 0, \cos\theta\_{2}) \\\\ \\\\
-&{\bf e}\_{3} = (\sin\theta\_{3}\cos\phi\_{3}, \sin\theta\_{3}\sin\phi\_{3}, \cos\theta\_{3}) \\\\ \\\\
+&{\bf e}\_{2} = (\sin\theta\_{2}, 0, \cos\theta\_{2}) \\\\
+&{\bf e}\_{3} = (\sin\theta\_{3}\cos\phi\_{3}, \sin\theta\_{3}\sin\phi\_{3}, \cos\theta\_{3}) \\\\
 &\cos\theta\_{32} = {\bf e}\_{2}\cdot{\bf e}\_{3} = \cos\theta\_{2}\cos\theta\_{3}
                     + \sin\theta\_{2}\sin\theta\_{3}\cos\phi\_{3} \tag{2}
 \end{align}
 $$
+
+<p>
+$x \equiv \cos\theta$ とすると $\cdots$
+</p>
+
 
 ---
 
