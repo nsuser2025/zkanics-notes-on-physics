@@ -274,8 +274,7 @@ where ${\bf n}$ is the outward-pointing normal.
 We can define the vector ${\bf a}$ as $\phi{\bf b}$,
 where $\phi$ and ${\bf b}$ are a scalar function 
 and constant vector, respectively.
-Then Eq.~\ref{eq:divergence_theorem} 
-becomes,    
+Then Eq. (13) becomes,    
 </p>
 
 $$
@@ -285,8 +284,7 @@ $$
 $$
 
 <p>
-From Eq.~\ref{eq:divergence_theorem_2},
-the relation used in Blount1962 is obtained.    
+From Eq. (14), the relation used in Blount1962 is obtained.    
 </p>
 
 $$
