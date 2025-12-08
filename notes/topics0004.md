@@ -44,7 +44,7 @@ $$
 
 <p>
 <span style="color:blue">
-※　Legendre多項式展開  
+※ Legendre多項式展開  
 </span>  
 </p>
 
@@ -59,7 +59,7 @@ $$
 
 <p>
 <span style="color:blue">
-※　Legendre多項式の直交性  
+※ Legendre多項式の直交性  
 </span>  
 </p>
 
@@ -87,7 +87,7 @@ $$
 
 <p>
 <span style="color:blue">
-※　Legendre多項式の加法定理  
+※ Legendre多項式の加法定理  
 </span>  
 </p>
 
