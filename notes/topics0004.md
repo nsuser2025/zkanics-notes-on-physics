@@ -101,6 +101,17 @@ P\_{j}(x\_{32})
 }
 $$
 
+<p>
+<span style="color:blue">
+$P^{m}\_{j}$: Legendre陪多項式（Associated Legendre polynomial） 
+</span>  
+</p>
+
+<p>
+<span style="color:blue">
+(9)の右辺第2項は $\int^{2\pi}_{0} d\phi_{3}$ でゼロになる.
+</span>  
+</p>
 
 
 ---
