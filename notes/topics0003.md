@@ -292,5 +292,3 @@ $$
 \int (\nabla \phi) ~d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S} \tag{15}
 \end{align}
 $$
-
----
