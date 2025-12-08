@@ -85,6 +85,13 @@ h(r\_{3},r\_{2},x\_{32})
 \end{align}
 $$
 
+$$
+\begin{align}
+\hat t\_{n}(r\_{1},r\_{2})
+&= \frac{2n+1}{2} \sum\_{ij} \int^{1}\_{-1} dx\_{2}
+\end{align}
+$$
+
 <p>
 <span style="color:blue">
 ※ Legendre多項式の加法定理  
@@ -112,7 +119,6 @@ $P^{m}_{j}$: Legendre陪多項式（Associated Legendre polynomial）
 (9)の右辺第2項は $\int^{2\pi}_{0} d\phi_{3}$ でゼロになる.
 </span>  
 </p>
-
 
 ---
 
