@@ -103,7 +103,7 @@ $$
 
 <p>
 <span style="color:blue">
-$P^{m}\_{j}$: Legendre陪多項式（Associated Legendre polynomial） 
+$P^{m}_{j}$: Legendre陪多項式（Associated Legendre polynomial） 
 </span>  
 </p>
 
