@@ -94,6 +94,8 @@ $$
 &\times \hat h\_{j}(r\_{3},r\_{2}) 
 ~\color{red}{P\_{n}(x\_{2})P\_{j}(x\_{2})P\_{i}(x\_{3})P\_{j}(x\_{3})} \\\\ \\\\
 &= \frac{2n+1}{2} \int^{\infty}\_{0} dr\_{3} ~r^{2}\_{3} \int^{2\pi}\_{0} d\phi\_{3}
+~\hat c\_{n}(r\_{1},r\_{3}) ~\rho(r\_{3}) ~\hat h\_{n}(r\_{3},r\_{2})
+\biggl(\frac{2}{2n+1}\biggr)^{2}
 \end{align}
 $$
 
