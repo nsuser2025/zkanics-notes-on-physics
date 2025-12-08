@@ -112,7 +112,7 @@ $$
 \begin{align}
 P\_{j}(x\_{32})
 &= P\_{j}(x\_{2})P\_{j}(x\_{3}) + 2 \sum^{j}\_{m=-j}
-\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos m(\phi\_{2}-\phi\_{3}) \tag{10}
+\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos [m(\phi\_{2}-\phi\_{3})] \tag{10}
 \end{align}
 }
 $$
