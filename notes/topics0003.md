@@ -36,6 +36,8 @@ This notation is different from one in Ref.(PhysRevB.56.12847).
 
 \begin{eqnarray}
 \braket{\psi_{m{\bf k}}|\psi_{n{\bf k}'}}
+&= \int d{\bf r} \int d{\bf r}'  
+   \braket{{\bf r}|{\bf r}'} 
 \end{eqnarray}
 
 \begin{eqnarray}
