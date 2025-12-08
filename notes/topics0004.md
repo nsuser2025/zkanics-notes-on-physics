@@ -44,7 +44,7 @@ $$
 
 <p>
 <span style="color:blue">
-※ Legendre多項式展開  
+※ Legendre多項式展開
 </span>  
 </p>
 
@@ -59,7 +59,7 @@ $$
 
 <p>
 <span style="color:blue">
-※ Legendre多項式の直交性  
+※ Legendre多項式の直交性
 </span>  
 </p>
 
@@ -72,7 +72,7 @@ $$
 $$
 
 <p>
-（3）のLegendre多項式展開  
+（3）のLegendre多項式展開
 </p>
 
 $$
@@ -89,6 +89,8 @@ $$
 \begin{align}
 \hat t\_{n}(r\_{1},r\_{2})
 &= \frac{2n+1}{2} \sum\_{ij} \int^{1}\_{-1} dx\_{2}
+\int^{\infty}\_{0} dr\_{3} r^{2}\_{3} \int^{2\pi}\_{0} d\phi\_{3}
+\int^{1}\_{-1} dx\_{3}
 \end{align}
 $$
 
