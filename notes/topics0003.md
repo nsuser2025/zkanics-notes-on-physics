@@ -45,13 +45,12 @@ $$
 &= \sum_{\bf R} \int_{V} d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}+{\bf R})
    \psi\_{n{\bf k}'}({\bf r} + {\bf R}) \\\\
 &= \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
-   \int_{V} d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}'}({\bf r})
+   \int_{V} d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}'}({\bf r}) \\\\
+&= N \delta_{{\bf kk'}}\delta\_{mn} 
 \end{align}
 $$
 
 \begin{eqnarray}
-&= \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
-   \int_{V} d{\bf r} \psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\
 &= N \delta_{{\bf kk'}}\delta_{mn} \\\\
 &= \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
 \end{eqnarray}
