@@ -5,7 +5,7 @@ Bloch function is expressed as follows
 </p>
 
 \begin{eqnarray}
-\psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \tag{1}
+\psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \label{eq:test}
 \end{eqnarray}
 
 <p>
