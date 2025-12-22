@@ -10,3 +10,19 @@
 3. 系の保存性に応じてAllen-Cahn方程式とCahn-Hilliard方程式を用いて $\phi$ の時間発展を数値的に解く.
 </p>
  
+---
+
+### Allen-Cahn方程式（非保存量の時間発展）
+
+$$
+\begin{align}
+\frac{\partial \phi}{\partial t}
+&= -L \mu
+\end{align}
+$$
+
+---
+
+### Cahn-Hilliard方程式（保存量の時間発展）
+
+---
