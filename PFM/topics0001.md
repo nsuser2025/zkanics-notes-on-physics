@@ -25,4 +25,11 @@ $$
 
 ### Cahn-Hilliard方程式（保存量の時間発展）
 
+$$
+\begin{align}
+\frac{\partial \phi}{\partial t}
+&= \nabla\cdot(\nabla \mu)
+\end{align}
+$$
+
 ---
