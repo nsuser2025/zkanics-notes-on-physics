@@ -1,4 +1,4 @@
-#### Inhomogeneous Ornstein-Zernike Equation (IOZ)
+#### IOZ方程式
 
 <p>
 Pair potentialが $u(r_{1},r_{2},\theta_{12})$ のときのIOZ方程式$^{1}$.
