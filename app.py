@@ -13,6 +13,7 @@ note_paths = {
     "topics0003": "notes/topics0003.md",
     "ioz_topics0001": "IOZ/topics0001.md",
     "ioz_topics0002": "IOZ/topics0002.md",
+    "ioz_topics0003": "IOZ/topics0003.md",
     "pfm_topics0001": "PFM/topics0001.md",
 }
 
