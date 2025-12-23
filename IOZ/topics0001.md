@@ -137,7 +137,7 @@ $P^{m}_{j}$: Legendre陪多項式（Associated Legendre polynomial）
 
 <p>
 <span style="color:blue">
-$\phi_{2}=0$のとき, (10)の右辺第2項は $\int^{2\pi}_{0} d\phi_{3}$ でゼロになる.
+$\phi_{2}=0$のとき, (9)の右辺第2項は $\int^{2\pi}_{0} d\phi_{3}$ でゼロになる.
 </span>  
 </p>
 
