@@ -1,4 +1,4 @@
-#### Legendre展開の数値計算
+#### Legendre多項式展開の数値計算
 
 <p>
 Gauss-Legendre積分を用いたLegendre多項式展開  
