@@ -26,7 +26,7 @@ $$
 
 ---
 
-#### 数値解法
+#### IOZの数値解法
 
 <p>
 Gauss-Legendre積分を用いたLegendre多項式展開  
