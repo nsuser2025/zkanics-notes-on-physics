@@ -2,6 +2,6 @@
 
 $$
 \begin{align}
-\m_{p} &=
+m_{p} &=
 \end{align}
 $$
