@@ -1,4 +1,10 @@
 <p>
+makefileのBINDIR=$(HOME)/ATAT/3.50/bin
+にしてmake & make install
+事前に$(HOME)/ATAT/3.50/binのディレクトリを作っておく。
+</p>
+
+<p>
 ATATのMIT Ab-initio Phase Stability (MAPS): クラスター選択のアルゴリズム
 空間的にコンパクトなクラスターが優先的に選ばれる。
 ある多体クラスターをクラスター展開に用いる場合は、その低次のクラスター（サブクラスター）
