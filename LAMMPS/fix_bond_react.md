@@ -6,7 +6,10 @@
 5. シミュレーションボックスを分子で埋め, fix bond/reactを使ってシミュレーションを実行する.</br>  
 </p>
 
-#### stabilization yes/no grp xmox
+---
+
+#### stabilization yes/no group-ID xmox
+
 <p>
 stabilization yes（デフォルトではno）キーワードを使用すると,
 fix bond/reactは2つの原子グループを作成する.
@@ -16,7 +19,6 @@ fix bond/reactは2つの原子グループを作成する.
 第1グループ $\cdots$ 反応に関与しているすべての原子 </br>
 インプットに明記されていなくてもnve/limitが自動で適用される.  
 </p>
-
 <p>
 第2グループ $\cdots$ 反応に関与していないすべての原子 </br>
 サーモスタットで制御される.
