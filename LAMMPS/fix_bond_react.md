@@ -3,7 +3,6 @@
 fix bond/reactのワークフロー
 </strong>  
 </p>
-
 <p>  
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
@@ -19,22 +18,18 @@ fix bond/reactのワークフロー
 stabilizationキーワード  
 </strong>  
 </p>
-
 <p>
 stabilization yes/no group-ID xmax </br>
 stabilization yes（デフォルトではno）を指定するとfix bond/react
 は2つの原子グループを作成する.
 </p>
-
 <p>
 第1グループ: 反応に関与しているすべての原子.
 インプットに明記されていなくてもnve/limitが自動で適用される.
-xmaxはfix nve/limitで指定するxmaxと同じ.
-</br>
+xmaxはfix nve/limitで指定するxmaxと同じ.</br>
 第2グループ: 反応に関与していないすべての原子.
 group-IDに_REACTを付加したものとして定義される.  
 </p>
-
 <p>
 <span style="color: blue;">
 fix ID group-ID nve/limit xmax </br>
@@ -62,8 +57,6 @@ template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword v
 </p>
 <p>
 Rmin $\cdots$ 反応を起こす2つの原子は最低でもRmin以上は離れていなければならない.
-これより近すぎる原子は反応候補から除外する.  
-</p>
-<p>
+これより近すぎる原子は反応候補から除外する.</br>
 Rmax $\cdots$ 原子同士の距離がRmaxより小さくなければ反応はおこらない.  
 </p>
