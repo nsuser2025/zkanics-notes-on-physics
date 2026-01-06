@@ -4,12 +4,6 @@ fix bond/reactのワークフロー
 </strong>  
 </p>
 
-<p>
-LAMMPSインプットにfix bond/reactを指定するのは1回だけ.
-反応AとBを同時にシミュレーションするときは fix bond/reactでreact A, react B
-と記載する.
-</p>
-
 <p>  
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
@@ -39,4 +33,17 @@ stabilization yes（デフォルトではno）を指定するとfix bond/react
 インプットに明記されていなくてもnve/limitが自動で適用される.</br>
 第2グループ: 反応に関与していないすべての原子 </br>
 stabilizationキーワードで指定したgroup-IDに_REACTを付加したものとして定義される.  
+</p>
+
+---
+
+<p>
+<strong>
+reactキーワード  
+</strong>  
+</p>
+
+<p>
+LAMMPSインプットにfix bond/reactを指定するのは1回だけ.反応AとBを同時にシミュレーションするときは
+fix bond/reactでreact A, react Bと記載する.
 </p>
