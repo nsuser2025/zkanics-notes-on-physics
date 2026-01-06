@@ -1,4 +1,4 @@
-#### ReaxFFとfix bond/reactionを使うためのLAMMPSインストール
+#### ReaxFFとfix bond/reactを使うためのLAMMPSインストール
 
 <p>
 cmake ../cmake -D BUILD_MPI=on \ </br>
