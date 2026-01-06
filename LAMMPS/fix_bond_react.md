@@ -1,8 +1,8 @@
 #### fix bond/reactの動作イメージ
 
 <p>
-1. スキャン $\cdots$ スキャン対象として指定した原子対の距離rがRmin$\geq$ r $leq$ Rmax
-にあるかをチェック.
+1. スキャン $\cdots$ スキャン対象として指定した原子対の距離rがRmin$\geq$ r $leq$ Rmax 
+にあるかをチェック.</br>
 2. 検証 $\cdots$ 
 </p>
 #### fix bond/reactのワークフロー
