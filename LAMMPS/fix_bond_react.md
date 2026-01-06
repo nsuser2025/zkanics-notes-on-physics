@@ -2,8 +2,8 @@
 
 <p>
 1. 指定原子対間の距離 r が Rmin $\le$ r $\le$ Rmax にあるかをチェックする.</br>
-2. 近づいたら, それぞれの原子周囲のトポロジーが pre template と一致しているかを検証する.</br>
-3. 一致していたら, post template に記載の構造に置き換える.</br>
+2. 近づいたら, それぞれの原子周囲のトポロジーが pre-reacted template と一致しているかを検証する.</br>
+3. 一致していたら, post-reacted template に記載の構造に置き換える.</br>
 4. 結合が生成した瞬間の不自然な構造歪みを nve/limit で安定化させる（stabilization）.</br>
 </p>
 
