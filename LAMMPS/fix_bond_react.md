@@ -52,9 +52,9 @@ reactキーワード
 </p>
 
 <p>
-react react-ID react-group-ID Nevery Rmin Rmax \ <\br>
+react react-ID react-group-ID Nevery Rmin Rmax \ </br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
-react react-ID react-group-ID Nevery Rmin Rmax \ <\br>
+react react-ID react-group-ID Nevery Rmin Rmax \ </br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
 </p>
 
