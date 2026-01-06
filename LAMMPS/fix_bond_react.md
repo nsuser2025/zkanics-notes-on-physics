@@ -1,5 +1,13 @@
-#### fix bond/react
 <p>
+LAMMPSインプットにfix bond/reactを指定するのは1回だけ.
+反応AとBを同時にシミュレーションするときは fix bond/reactでreact A, react B
+と記載する.
+</p>
+
+<p>
+<strong>
+fix bond/reactのワークフロー  
+</strong></br>  
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
 3. 反応が起こった後の反応部位の分子テンプレートを作成する.</br>
