@@ -28,7 +28,7 @@ stabilization yes（デフォルトではno）を指定するとfix bond/react
 
 <p>
 第1グループ: 反応に関与しているすべての原子 </br>
-インプットに明記されていなくてもnve/limitが自動で適用される.
+インプットに明記されていなくてもnve/limitが自動で適用される.</br>
 xmaxはfix nve/limitで指定するxmaxと同じ.
 </br></br>
 第2グループ: 反応に関与していないすべての原子 </br>
