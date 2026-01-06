@@ -7,6 +7,10 @@
 4. 結合が生成した瞬間の不自然な構造歪みを nve/limit で安定化させる.</br>
 </p>
 
+<p>
+4に関しては stabilization yes で対応する.</br>
+$\rightarrow$ no にしてしまうと置き換え直後の原子の挙動が不自然になることがある.
+</p>
 ---
 
 #### fix bond/reactのワークフロー
