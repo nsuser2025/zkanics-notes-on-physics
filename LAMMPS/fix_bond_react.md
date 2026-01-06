@@ -55,7 +55,10 @@ reactキーワード
 react react-ID react-group-ID Nevery Rmin Rmax \ <\br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
 react react-ID react-group-ID Nevery Rmin Rmax \ <\br>
-template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>   
+template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
+</p>
+
+<p>  
 LAMMPSインプットにfix bond/reactを指定するのは1回だけ.反応AとBを同時にシミュレーションするときは
-fix bond/reactでreact A, react Bと記載する.
+fix bond/reactでreact A & react Bと記載する.
 </p>
