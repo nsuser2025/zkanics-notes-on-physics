@@ -2,15 +2,14 @@
 
 <p>
 stabilization yes/no group-ID xmax </br>
-stabilization yes（デフォルトではno）を指定するとfix bond/react
-は2つの原子グループを作成する.
+yes（デフォルトではno）を指定すると2つの原子グループが作成される.
 </p>
 <p>
 第1グループ: 反応に関与しているすべての原子.
-インプットに明記されていなくてもnve/limitが自動で適用される.
-xmaxはfix nve/limitで指定するxmaxと同じ.</br>
+インプットに明記されていなくても nve/limit が自動で適用される.
+xmax は fix nve/limit で指定する xmax と同じ.</br>
 第2グループ: 反応に関与していないすべての原子.
-group-IDに_REACTを付加したものとして定義される.  
+group-ID に _REACT を付加したものとして定義される.  
 </p>
 <p>
 <span style="color: blue;">
