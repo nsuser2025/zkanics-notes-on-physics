@@ -10,9 +10,9 @@
 #### stabilization
 
 <p>
-<strong><span style="color: red;">
-stabilization yes/no group-ID xmax
-</span></strong>
+<span style="color: red;">
+フォーマット: stabilization yes/no group-ID xmax
+</span>
 </p>
 
 <p>
