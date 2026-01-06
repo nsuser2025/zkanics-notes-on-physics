@@ -1,4 +1,10 @@
 <p>
+<strong>
+fix bond/react  
+</strong>  
+</p>
+
+<p>
 LAMMPSインプットにfix bond/reactを指定するのは1回だけ.
 反応AとBを同時にシミュレーションするときは fix bond/reactでreact A, react B
 と記載する.
