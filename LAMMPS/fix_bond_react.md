@@ -18,7 +18,7 @@ fix bond/reactは2つの原子グループを作成する.
 <p>
 <strong>第1グループ</strong> $\cdots$ 反応に関与しているすべての原子 </br>
 インプットに明記されていなくてもnve/limitが自動で適用される.</br>
-第2グループ $\cdots$ 反応に関与していないすべての原子 </br>
+<strong>第2グループ</strong> $\cdots$ 反応に関与していないすべての原子 </br>
 stabilizationキーワードで指定したgroup-IDに_REACTを
 付加したものとして作成され, サーモスタットで制御される.  
 </p>
