@@ -1,6 +1,6 @@
 <p>
 <strong>
-fix bond/react  
+fix bond/reactのワークフロー
 </strong>  
 </p>
 
@@ -10,8 +10,7 @@ LAMMPSインプットにfix bond/reactを指定するのは1回だけ.
 と記載する.
 </p>
 
-<p>
-fix bond/reactのワークフロー</br>  
+<p>  
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
 3. 反応が起こった後の反応部位の分子テンプレートを作成する.</br>
