@@ -36,7 +36,7 @@ group-IDに_REACTを付加したものとして定義される.
 </p>
 
 <p>
-<span style="color: red;">
+<span style="color: blue;">
 fix ID group-ID nve/limit xmax </br>
 group-IDに含まれる原子に対してNVEアンサンブルのMDを行う.
 ただし, 1ステップで原子が移動できる最大距離はxmaxまで.
@@ -52,6 +52,7 @@ reactキーワード
 </p>
 
 <p>
+
 LAMMPSインプットにfix bond/reactを指定するのは1回だけ.反応AとBを同時にシミュレーションするときは
 fix bond/reactでreact A, react Bと記載する.
 </p>
