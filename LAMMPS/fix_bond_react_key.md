@@ -10,7 +10,9 @@ nve/limit が自動で適用され, xmax は fix nve/limit で指定する xmax 
 </p>
 <p>
 2. 反応に関与していない原子グループ </br>
-group-ID に _REACT を付加した新規 group-ID が定義される.
+group-ID に _REACT を付加した新規 group-ID が定義される.</br>
+反応に関与するグループには既に nve/limit という特殊なアンサンブルが
+使われているので, NVT/NPT はこのグループに適用する.
 </p>
 <p>
 <span style="color: blue;">
