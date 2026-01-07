@@ -3,8 +3,8 @@
 mkdir build </br>
 cd build </br>
 cmake ../cmake -D BUILD_MPI=on -D PKG_MOLECULE=on -D PKG_MC=on \ <br>
--D PKG_MISC=on -D PKG_EXTRA-FIX=on -D PKG_KSPACE=on -D PKG_REAXFF=on \ </br>
--D PKG_CLASS2=on -D PKG_REACTION=on </br>
+-D PKG_MISC=on -D PKG_EXTRA-FIX=on -D PKG_KSPACE=on \ </br>
+-D PKG_REAXFF=on -D PKG_CLASS2=on -D PKG_REACTION=on </br>
 make </br>
 make install
 </p>
