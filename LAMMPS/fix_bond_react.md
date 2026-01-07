@@ -27,3 +27,14 @@ $\rightarrow$ no にしてしまうと置き換え直後の原子の挙動が不
 <p>
 反応前後のテンプレイートとマップの作製を自動で行うツール $\cdots$ AutoMapper  
 </p>
+
+---
+
+#### Refs.
+
+<p>
+Gissinger2017_Polymer.vol128.211 </br>
+Gissinger2020_Macromolecules.vol53.9953 </br>
+Gissinger2024_Comput.Phys.Commun.vol304.109287 </br>
+Gissinger2024_J.Phys.Chem.B.vol128.3282 </br> 
+</p>
