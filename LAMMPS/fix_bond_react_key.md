@@ -6,7 +6,7 @@ yes（デフォルトではno）を指定すると2つの原子グループが�
 </p>
 <p>
 1. 反応に関与している原子グループ </br>
-nve/limit が自動で適用される.xmax は fix nve/limit で指定する xmax と同じ.
+nve/limit が自動で適用される. xmax は fix nve/limit で指定する xmax と同じ.
 </p>
 <p>
 2. 反応に関与していない原子グループ </br>
@@ -16,7 +16,7 @@ group-ID に _REACT を付加した新規 group-ID が定義される.
 <span style="color: blue;">
 fix ID group-ID nve/limit xmax </br>
 group-ID に含まれる原子に対して NVE アンサンブルの MD を行う. </br>
-ただし, 1ステップで原子が移動できる最大距離は xmax まで.
+ただし, 1 ステップで原子が移動できる最大距離は xmax まで.
 </span> 
 </p>
 
@@ -26,7 +26,7 @@ group-ID に含まれる原子に対して NVE アンサンブルの MD を行�
 
 <p>  
 LAMMPS インプットに fix bond/react を指定するのは 1 度だけ. </br>
-反応 A と B を同時にシミュレーションするときは fix bond/react で react A & react B と記載する.
+複数反応を同時にシミュレーションするときは fix bond/react で下記のようにリストする.
 </p>
 <p>
 react react-ID react-group-ID Nevery Rmin Rmax \ </br>
