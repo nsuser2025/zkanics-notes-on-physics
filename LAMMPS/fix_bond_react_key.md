@@ -5,10 +5,9 @@ stabilization yes/no group-ID xmax </br>
 yes（デフォルトではno）を指定すると2つの原子グループが作成される.
 </p>
 <p>
-第1グループ: 反応に関与しているすべての原子.
-nve/limit が自動で適用される.
+反応に関与している原子グループ: nve/limit が自動で適用される.</br>
 xmax は fix nve/limit で指定する xmax と同じ.</br>
-第2グループ: 反応に関与していないすべての原子.
+反応に関与していない原子グループ:
 group-ID に _REACT を付加したgroup-IDとして定義される.  
 </p>
 <p>
