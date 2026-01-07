@@ -26,7 +26,7 @@ group-ID に含まれる原子に対して NVE アンサンブルの MD を行�
 
 <p>  
 LAMMPS インプットに fix bond/react を指定するのは 1 度だけ. </br>
-複数反応を同時にシミュレーションするときは fix bond/react で下記のようにリストする.
+複数反応をシミュレーションするときは fix bond/react で下記のようにリストする.
 </p>
 <p>
 react react-ID react-group-ID Nevery Rmin Rmax \ </br>
