@@ -1,3 +1,5 @@
+#### 質量分率から体積分率への変換
+
 $$
 \begin{align}
 \phi &= \frac{\omega_{\rm solid}\rho_{\rm liquid}}
@@ -22,8 +24,8 @@ m_{\rm liquid} = \frac{(1-\omega_{\rm solid})m_{\rm solid}}{\omega_{\rm solid}} 
 \end{align}
 $$
 <p>
-$m_{\rm solid}$: スラリー中の全粒子の質量 </br>
-$V_{\rm solid}$: スラリー中の全粒子の体積 </br></br> 
+$m_{\rm solid}$ $\cdots$ スラリー中の全粒子の質量 </br>
+$V_{\rm solid}$ $\cdots$ スラリー中の全粒子の体積 </br></br> 
 (3) を (2) に代入する.
 </p>
 \begin{align}
@@ -37,3 +39,16 @@ $V_{\rm solid}$: スラリー中の全粒子の体積 </br></br>
 </p>
 </span>
 
+---
+
+#### 例: エポキシ樹脂中の 70 wt% シリカナノ粒子
+
+<p>
+シリカナノ粒子の密度: 2.2, エポキシ樹脂の密度: 1.15
+</p>
+
+$$
+\begin{align}
+\phi &= \frac{0.7 \times 1.15}{(0.7 \times 1.15) + (0.3 \times 2.2} \approx 0.55
+\end{align}
+$$
