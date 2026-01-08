@@ -1,5 +1,3 @@
-#### 質量分率から体積分率への変換
-
 $$
 \begin{align}
 \phi &= \frac{\omega_{\rm solid}\rho_{\rm liquid}}
