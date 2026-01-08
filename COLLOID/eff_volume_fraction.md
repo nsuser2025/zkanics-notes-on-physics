@@ -7,14 +7,12 @@ $$
 $$
 
 <p>
-$\Delta \equiv \delta / R$ </br>
-$R$ $\cdots$ 固体粒子の半径, $\delta$ $\cdots$ 吸着層の厚み. 
+$\Delta \equiv \delta / R$（$R$ $\cdots$ 固体粒子の半径, $\delta$ $\cdots$ 吸着層の厚み） 
 </p>
 
 <p>
 導出  
 </p>
-
 $$
 \begin{align}
 V_{\rm eff} &= \frac{4\pi}{3} (R + \delta)^{3} \tag{2} \\ \\
