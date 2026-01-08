@@ -2,7 +2,7 @@
 
 $$
 \begin{align}
-\phi = \frac{\frac{\onega_{\rm solid}}{\rho_{\rm solid}}}
-            {\frac{\omega_{\rm solid}}{\rho_{\rm solid}}}
+\phi = \frac{\frac{\omega_{\rm solid}}{\rho_{\rm solid}}}
+            {\frac{\omega_{\rm solid}}{\rho_{\rm solid}}+(1-\omega_{\rm solid})}
 \end{align}
 $$
