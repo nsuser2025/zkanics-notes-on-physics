@@ -22,7 +22,8 @@ m_{\rm liquid} = \frac{(1-\omega_{\rm solid})m_{\rm solid}}{\omega_{\rm solid}} 
 \end{align}
 $$
 <p>
-$V_{\rm solid}$: スラリー中の全粒子の体積 </br> 
+$m_{\rm solid}$: スラリー中の全粒子の質量 </br>
+$V_{\rm solid}$: スラリー中の全粒子の体積 </br></br> 
 (3) を (2) に代入する.
 </p>
 \begin{align}
