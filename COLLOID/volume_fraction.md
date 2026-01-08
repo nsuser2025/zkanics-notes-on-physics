@@ -7,7 +7,8 @@ $$
 \end{align}
 $$
 <p>
-ここで $\omega_{\rm solid}$ は wt% を少数で表していることに注意.
+$\omega_{\rm solid}$ は wt% を少数で表していることに注意.
+</p>
 
 <span style="color: blue;">
 <p>
