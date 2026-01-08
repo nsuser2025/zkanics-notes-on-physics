@@ -21,6 +21,7 @@ note_paths = {
     "fix_bond_react_key": "LAMMPS/fix_bond_react_key.md",
     "volume_fraction": "COLLOID/volume_fraction.md",
     "eff_volume_fraction": "COLLOID/eff_volume_fraction.md",
+    "kd_viscosity": "COLLOID/kd_viscosity.md",
 }
 
 for key, path in note_paths.items():
