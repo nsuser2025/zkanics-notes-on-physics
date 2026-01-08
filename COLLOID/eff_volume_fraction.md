@@ -39,7 +39,17 @@ $$
 \begin{align}
 \phi_{\rm eff}
 &= \frac{NV_{\rm eff}}{NV_{\rm eff} + \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle}}
-= \frac{(V_{\rm eff}/V_{\rm particle})\phi}{(V_{\rm eff}/V_{\rm particle})\phi + (1 - \phi)}  
+= \frac{(V_{\rm eff}/V_{\rm particle})\phi}{(V_{\rm eff}/V_{\rm particle})\phi + (1 - \phi)} \tag{5}
 \end{align}
 $$
+$V_{\rm eff}/V_{\rm particle}$ は次式で表される.
+$$
+\begin{align}
+V_{\rm eff}/V_{\rm particle}
+&= \frac{(R + \delta)^{3}}{R^{3}} = \biggl( 1 + \frac{\delta}{R} \biggr)^{3} \tag{6}  
+\end{align}
+$$
+<p>
+(6) を (5) に代入してまとめれば (1) が得られる.  
+</p>
 </span>
