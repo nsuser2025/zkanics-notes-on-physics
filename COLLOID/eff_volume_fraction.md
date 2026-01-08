@@ -12,7 +12,7 @@ $\Delta \equiv \delta / R$（$R$ $\cdots$ 固体粒子の半径, $\delta$ $\cdot
 
 <span style="color: blue;">
 <p>
-導出  
+【導出】  
 </p>
 $$
 \begin{align}
