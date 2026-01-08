@@ -12,7 +12,7 @@ $\omega_{\rm solid}$ は質量分率 wt% を少数で表していることに注
 
 <span style="color: blue;">
 <p>
-導出
+【導出】
 </p>
 $$
 \begin{align}
