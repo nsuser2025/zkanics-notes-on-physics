@@ -16,6 +16,7 @@ note_paths = {
     "ioz_topics0002": "IOZ/topics0002.md",
     "ioz_topics0003": "IOZ/topics0003.md",
     "pfm_topics0001": "PFM/topics0001.md",
+    "deepmd_dplr": "DEEPMD/dplr.md",
     "reaxff_install": "LAMMPS/reaxff_install.md",
     "fix_bond_react": "LAMMPS/fix_bond_react.md",
     "fix_bond_react_key": "LAMMPS/fix_bond_react_key.md",
