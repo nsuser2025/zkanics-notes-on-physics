@@ -2,8 +2,9 @@
 
 $$
 \begin{align}
-E &= A \tag{1} \\ \\
-S(m) &= \sum_{I} q_{I}\exp(-2 \pi i m R_{I}) + \sum_{n} q_{n} \exp(-2 \pi i m W_{n}) \tag{2}
+E &= \frac{1}{2\pi V} \sum_{m\neq 0, |m| \le L}
+\frac{\exp(-\pi^{2}m^{2}/\beta^{2})}{m^{2}} S^{2}(m) \\ \\
+S(m) &= \sum_{I} q_{I}\exp(-2 \pi i m R_{I}) + \sum_{n} q_{n} \exp(-2 \pi i m W_{n}) \tag{1}
 \end{align}
 $$
 
