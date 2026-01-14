@@ -8,7 +8,8 @@ Ref. Pan2010_Langmuir.vol26.133
 </p>
 $$
 \begin{align}
-{\bf F}_{ij} = \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
+{\bf F}_{ij} &= -\frac{du(r)}{dr} {\bf e}_{ij} \\ \\ 
+&= \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
 \exp(-b_{ij}r_{ij}/r_{\rm c}) - \exp(-b_{ij}) \bigr] 
 {\bf e}_{ij} \tag{1}
 \end{align}
@@ -47,7 +48,7 @@ u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})}\biggl[
 \end{align}
 $$
 <p>
-(2) のままでは不連続点が発生してOZ計算は発散してしまう.
+(3) のままでは不連続点が発生して OZ 計算は発散してしまう.
 Ishizuka2023_J.Mol.Liq.vol384.122246の方法を用いることで発散を回避できる:
 </p>
 $$
