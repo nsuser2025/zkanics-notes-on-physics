@@ -8,13 +8,22 @@ colloid-colloid, colloid-solvent の conservative force:
 $$
 \begin{align}
 {\bf F}_{ij} = \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
-\exp(-b_{ij}r_{ij}/r_{\rm c}) - \exp(-b_{ij}) \bigr] \tag{1}
+\exp(-b_{ij}r_{ij}/r_{\rm c}) - \exp(-b_{ij}) \bigr] 
+{\bf e}_{ij} \tag{1}
 \end{align}
 $$
 <p>
 soft coreポテンシャルは粒子間のすり抜けが許されるが, コロイドではすり抜けは起きない.
 (1)を用いればコロイドと溶媒のすり抜けは起こらない.
 </p>
+<p>
+Volume fraction:  
+</p>
+$$
+\begin{align}
+\phi &\equiv \frac{4\pi N a^{3}}{3} \tag{2}
+\end{align}
+$$
 
 ---
 
@@ -34,7 +43,7 @@ u'(r) &= u(r) - u(r_{\rm c}) \tag{3}
 \end{align}
 $$
 <p>
-コロイドの密度:  
+コロイド密度:  
 </p>
 $$
 \begin{align}
