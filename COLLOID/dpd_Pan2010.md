@@ -17,7 +17,7 @@ soft coreポテンシャルは粒子間のすり抜けが許されるが, コロ
 
 ---
 
-#### Ornstein-Zernike に移植
+#### Ornstein-Zernike 理論による解析
 $$
 \begin{align}
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} \tag{2}
@@ -35,3 +35,8 @@ $$
 <p>
 コロイドの密度:  
 </p>
+$$
+\begin{align}
+\rho &= \frac{3\phi}{(4\pi a^{3}} \tag{5}
+\end{align}
+$$
