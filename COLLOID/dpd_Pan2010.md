@@ -8,8 +8,8 @@ Ref. Pan2010_Langmuir.vol26.133
 </p>
 $$
 \begin{align}
-{\bf F}_{ij} &= -\frac{du(r)}{dr} {\bf e}_{ij} \\ \\ 
-&= \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
+{\bf F}_{ij} &= -\frac{du(r)}{dr} {\bf e}_{ij} 
+= \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
 \exp(-b_{ij}r_{ij}/r_{\rm c}) - \exp(-b_{ij}) \bigr] 
 {\bf e}_{ij} \tag{1}
 \end{align}
