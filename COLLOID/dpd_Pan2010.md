@@ -3,11 +3,12 @@
 Ref. Pan2010_Langmuir.vol26.133  
 </p>
 <p>
-colloid-colloid, colloid-solvent の conservative force  
+colloid-colloid, colloid-solvent の conservative force:  
 </p>
 $$
 \begin{align}
-{\bf F}_{ij} = \frac{a_{ij}}{(1-e^{-b_{ij}})} \tag{1}
+{\bf F}_{ij} = \frac{a_{ij}}{(1-e^{-b_{ij}})} \bigl[
+\exp(-b_{ij}r_{ij}/r_{\rm c}) - \exp(-b_{ij}) \bigr] \tag{1}
 \end{align}
 $$
 <p>
@@ -37,6 +38,6 @@ $$
 </p>
 $$
 \begin{align}
-\rho &= \frac{3\phi}{(4\pi a^{3}} \tag{5}
+\rho &= \frac{3\phi}{(4\pi a^{3})} \tag{5}
 \end{align}
 $$
