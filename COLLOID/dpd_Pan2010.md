@@ -19,7 +19,7 @@ $$
 (1)を用いればコロイドと溶媒のすり抜けは起こらない（Ref. の Fig. 2）.
 </p>
 <p>
-Volume fraction:  
+体積分率:  
 </p>
 $$
 \begin{align}
