@@ -29,6 +29,6 @@ make </br>
 cd ../src </br>
 make -f makefile/Makefile.gfortran_mpi </br>
 make -f makefile/Makefile.gfortran_mpi lib </br> </br>
-aenet-master/bin に generate.x（single core）, train.x（MPI）,
-predict.x（MPI）が生成される.
+aenet-master/bin に generate（single core）, train（MPI）,
+predict（MPI）の実行ファイルが生成される.
 </p>
