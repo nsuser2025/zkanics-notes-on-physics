@@ -13,7 +13,7 @@ $$
 \end{align}
 $$
 <p>
-soft coreポテンシャルは粒子間のすり抜けが許されるが, コロイドではすり抜けは起きない.
+soft coreポテンシャルでは粒子間のすり抜けが許されるが, コロイドではすり抜けは起きない.
 (1)を用いればコロイドと溶媒のすり抜けは起こらない.
 </p>
 <p>
@@ -21,10 +21,13 @@ Volume fraction:
 </p>
 $$
 \begin{align}
-\phi &\equiv \frac{4\pi N a^{3}}{3} \tag{2}
+\phi &\equiv \frac{4\pi N a^{3}}{3V_{\rm total}} \tag{2}
 \end{align}
 $$
-
+<p>
+$a \cdots$  コロイド粒子の半径（$a = 0.98$）,
+$N \cdots$　コロイド粒子の数（$N = 200$～$1300$）
+</p>
 ---
 
 #### Ornstein-Zernike 理論による解析
