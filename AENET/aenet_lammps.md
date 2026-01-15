@@ -23,7 +23,7 @@ LAMMPS の version は 2Aug2023 を用いる.
 
 <p>
 Ref. Shimamura2021_Chem.Phys.Lett.vol778.138748 </br>
-Supp. Info. に AIMD のトレーニングデータが公開されている.
-AENET公式のチュートリアルには応力テンソルの学習が含まれていないが,
+Supp. Info. に AIMD で生成したトレーニングデータが公開されている.
+AENET公式の TiO$_{2}$ チュートリアルには応力テンソルの学習が含まれていないが,
 この文献で公開されている wsf ファイルには pressure 行の下に応力テンソルが記載されている.
 </p>
