@@ -1,5 +1,3 @@
-#### Many-body DPD 参考文献リスト
-
 <p>
 オリジナル: Phys.Rev.E.vol68.066702.2003 </br>
 表面張力計算: Phys.Rev.E.vol82.016706.2010, Phys.Rev.E.vol83.051601.2011 </br>
