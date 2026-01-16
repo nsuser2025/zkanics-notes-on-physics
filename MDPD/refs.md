@@ -1,0 +1,9 @@
+#### Many-body DPD 参考文献リスト
+
+<p>
+オリジナル: Phys.Rev.E.vol68.066702.2003 </br>
+表面張力計算: Phys.Rev.E.vol82.016706.2010, Phys.Rev.E.vol83.051601.2011 </br>
+混相流: Cupelli2008_New.J.Phys.vol10.043009 </br>
+Arienti2011_J.Chem.Phys.vol134.204114（固液）</br>
+アルゴリズム: Giusto2022_Comput.Phys.Commun.vol280.108472
+</p>
