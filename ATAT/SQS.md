@@ -209,20 +209,8 @@ mcsqs -rc で再スタートします。
 
 #### POSCAR への変換
 <p>
-bestsqs.out ファイルは、rndstr.in と似たフォーマットをしています。
-最初の3行（A）は事前に定義したユニットセルです。
-続く3行（B）はユニットセルで表現されたSQSの格子ベクトルです。
-それに続くすべての行（C）は、ユニットセルで表現された各原子の座標です。
-このSQSの出力を POSCAR に変換するには、まず POSCAR の格子ベクトルを $B$ と $A$ の積として計算します。
-次に、原子座標を $C$ と $A$ の積として計算します。
-ここで注意が必要なのは、bestsqs.out 内の原子は元素ごとにグループ化されていないということです！
-必ず元素ごとに並べ替えてください。その後、POSCAR の2行目に実際の格子定数の実験値（Å単位）を入力します。
-これで『Cartesian（絶対座標）』形式の POSCAR が得られます。
-最後に、この『Cartesian』形式の POSCAR を『Direct（相対座標）』形式に変換することを強く推奨します。
-なぜなら、CrystalMakerやVESTAといった可視化ソフトでは後者の方が扱いやすく、
-また、高価なリソースを使うDFT計算の前に POSCAR を可視化して確認しておくことは非常に良い習慣だからです。
-これもまた退屈な作業のように思えるでしょう。
-そのため、この変換を行うC++ツールも作成しました。GitHub（リンク先）に公開しています。  
+install: c++ ./sqs2poscar.cpp -o ./sqs2poscar </br> 
+sqs2poscar 
 </p>
 
 ---
@@ -231,11 +219,11 @@ bestsqs.out ファイルは、rndstr.in と似たフォーマットをしてい�
 <p>
 sqscell.out, rndstrgrp.out, bestsqs.out, bestcorr.out, mcsqs.log
 sqscell.out ファイルについては、以前に紹介しました。
-rndstrgrp.out ファイルは、単に rndstr.in ファイルを再構成したものです。 
+rndstrgrp.out: rndstr.in ファイルを再構成したものです。 
 </p>
 <p>
 <u>bestsqs.out</u> </br>
-探索過程で得られた構造のうち, 目的関数が負に最も大きいSQS のみが保存される.
+探索過程で得られた構造のうち, 目的関数が負に最も大きい SQS のみが保存される.
 フォーマットは rndstr.in ファイルとほぼ同じだが, bestsqs.out では全てのサイトが
 元素の混合状態ではなく, 特定の原子が確定している.
 </p>
