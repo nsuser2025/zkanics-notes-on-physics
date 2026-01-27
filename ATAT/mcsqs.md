@@ -18,9 +18,10 @@ mcsqs は, 系の複雑さやカットオフの設定次第で無限に走り続
 </p>
 
 <p>
-bestsqs.out </br>
+<u>bestsqs.out</u> </br></br>
 探索過程で得られた SQS のうち, 目的関数の値が負に最も大きい構造が保存される.
-sqs2poscar で POSCAR ファイルに変換する.</br>
+sqs2poscar で POSCAR ファイルに変換して DFT 計算や MLFF MD を行う.
+<p>
 bestcorr.out</br>
 ターゲットとなる理想ランダム固溶体と, それに対応する bestsqs.out の相関関数が含まれている.
 Column 1: n 体相関</br>
@@ -33,7 +34,8 @@ Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達する�
 最終行: SQS の目的関数（Objective_function）$\rightarrow$
 負に大きいほど, その SQS は理想ランダム固溶体とみなすことができる.
 理想ランダム固溶体の相関関数を完全に再現する構造が得られたとき,
-Objective_function は Perfect_match と表示される.</br>  
+Objective_function は Perfect_match と表示される.  
+</p>
 mcsqs.log </br>
 新しい SQS を見つけるたびに,　その目的関数の値と bestcorr.out
 の 5 列にあるすべての数値が保存される.  
