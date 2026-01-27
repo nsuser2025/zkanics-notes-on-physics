@@ -1,14 +1,4 @@
 <p>
-<u>ATAT インストール</u></br>
-事前に HOME/ATAT/3.50/bin のディレクトリを作っておく.</br>
-makefile の BINDIR=HOME/ATAT/3.50/bin にする.</br>
-make & make install
-</p>
-
----
-
-#### mcsqs
-<p>
 定義されたスーパーセルを用いて, モンテカルロ法から SQS を探索する.  
 </p>
 
@@ -90,14 +80,6 @@ sqscell.out ファイルを整理し、格子ベクトルの長さが等しい�
 なぜなら、それが最も立方体に近い形状を意味するからです。
 mcsqs -rc で再スタートします。
 手順2は退屈な作業ですので、そのためのPythonコードを作成しました：  
-</p>
-
----
-
-#### POSCAR への変換
-<p>
-install: c++ ./sqs2poscar.cpp -o ./sqs2poscar </br> 
-sqs2poscar 
 </p>
 
 ---
