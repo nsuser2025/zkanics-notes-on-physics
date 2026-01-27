@@ -6,10 +6,11 @@ make & make install
 </p>
 
 <p>
-<u>rndstr.in</u>  
+<u>rndstr.in</u></br>  
 corrdump は rndstr.in を読み込み, 対称性とクラスターを計算する.
 非常に大きな周期セルを定義しない限り, 通常はすぐに終了する.
-大きなセルの場合は clusters.out が巨大になり, 数時間以上かかることもある.
+大きなセルの場合は clusters.out が巨大になり,
+数時間以上かかることもある.
 </p>
   
 <p>
