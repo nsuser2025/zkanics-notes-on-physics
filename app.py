@@ -30,6 +30,7 @@ note_paths = {
     "gel_intro": "COLLOID/gel_intro.md",
     "dpd_Pan2010": "COLLOID/dpd_Pan2010.md",
     "kapsel_install": "KAPSEL/kapsel_install.md",
+    "atat_speedup": "ATAT/speedup.md",
 }
 
 for key, path in note_paths.items():
