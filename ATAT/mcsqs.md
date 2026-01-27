@@ -18,16 +18,12 @@ mcsqs は, 系の複雑さやカットオフの設定次第で無限に走り続
 </p>
 
 <p>
-<u>mcsqs の出力ファイル</u></br>
-<u>1. rndstrgrp.out</u></br> 
-rndstr.in を再構成したファイル.</br> 
-<u>2. bestsqs.out</u> </br>
+<u>注目すべき出力ファイル</u></br>
+bestsqs.out </br>
 探索過程で得られた構造のうち, 目的関数が負に最も大きい SQS のみが保存される.
 フォーマットは rndstr.in ファイルとほぼ同じだが, bestsqs.out では全てのサイトが
 元素の混合状態ではなく, 特定の原子が確定している.
-</p>
-<p>
-<u>bestcorr.out</u>
+bestcorr.out
 ターゲットとなる理想ランダム固溶体と, それに対応する bestsqs.out の相関関数が含まれている.
 このファイルは5つの列と、最終行の Objective_function で構成されています。
 Column 1: n 体相関</br>
@@ -41,10 +37,8 @@ Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達する�
 最終行: SQS の目的関数（Objective_function）$\rightarrow$
 負に大きいほど, その SQS は理想ランダム固溶体とみなすことができる.
 すべての相関関数がターゲットと完全に一致した場合, Objective_function
-には Perfect_match と表示される.  
-</p>
-<p>
-<u>mcsqs.log</u> </br>
-新しい SQS を見つけるたびに,　その目的関数（objective function）と bestcorr.out
-の第 5 列にあるすべての数値が保存される.  
+には Perfect_match と表示される.</br>  
+mcsqs.log </br>
+新しい SQS を見つけるたびに,　その目的関数の値と bestcorr.out
+の 5 列にあるすべての数値が保存される.  
 </p>
