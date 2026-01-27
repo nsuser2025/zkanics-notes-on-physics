@@ -23,12 +23,12 @@ mcsqs は, 系の複雑さやカットオフの設定次第で無限に走り続
 sqs2poscar で POSCAR ファイルに変換して DFT 計算や MLFF MD を行う.
 <p>
 bestcorr.out</br>
-ターゲットとなる理想ランダム固溶体と, それに対応する bestsqs.out の相関関数が含まれている.
+bestsqs.out と理想ランダム固溶体の相関関数が含まれている.
 Column 1: n 体相関</br>
-Column 2: 計算に含まれる近接原子間の距離</br>
+Column 2: 近接原子間の距離</br>
 Column 3: SQS の相関関数</br>
-Column 4: rndstr.in で定義された合金の相関関数</br>
-Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達するとゼロになる.
+Column 4: 理想ランダム固溶体の相関関数</br>
+Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達するとゼロになる.</br>
 意図した通りの近傍シェルを含んでいるか確認する.
 これらの距離の値は、定義された格子定数（1単位）とも一致しています。
 最終行: SQS の目的関数（Objective_function）$\rightarrow$
