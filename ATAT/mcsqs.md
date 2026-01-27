@@ -22,7 +22,7 @@ bestsqs.out </br>
 探索過程で目的関数が負に最も大きい SQS が保存される.
 フォーマットは rndstr.in ファイルと同じだが, bestsqs.out では全てのサイトが
 元素の混合状態ではなく, 確定した特定の原子が記載されている.</br>
-bestcorr.out
+bestcorr.out</br>
 ターゲットとなる理想ランダム固溶体と, それに対応する bestsqs.out の相関関数が含まれている.
 このファイルは5つの列と、最終行の Objective_function で構成されています。
 Column 1: n 体相関</br>
@@ -35,8 +35,8 @@ Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達する�
 これらの距離の値は、定義された格子定数（1単位）とも一致しています。
 最終行: SQS の目的関数（Objective_function）$\rightarrow$
 負に大きいほど, その SQS は理想ランダム固溶体とみなすことができる.
-すべての相関関数がターゲットと完全に一致した場合, Objective_function
-には Perfect_match と表示される.</br>  
+理想ランダム固溶体の相関関数を完全に再現する構造が得られたとき,
+Objective_function は Perfect_match と表示される.</br>  
 mcsqs.log </br>
 新しい SQS を見つけるたびに,　その目的関数の値と bestcorr.out
 の 5 列にあるすべての数値が保存される.  
