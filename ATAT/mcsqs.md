@@ -29,12 +29,8 @@ Column 2: 近接原子間の距離</br>
 Column 3: SQS の相関関数</br>
 Column 4: 理想ランダム固溶体の相関関数</br>
 Column 5: Col. 3 と Col. 4 の差 $\rightarrow$ 理想的な SQS に達するとゼロになる.</br>
-意図した通りの近傍シェルを含んでいるか確認する.
-これらの距離の値は、定義された格子定数（1単位）とも一致しています。
-最終行: SQS の目的関数（Objective_function）$\rightarrow$
-負に大きいほど, その SQS は理想ランダム固溶体とみなすことができる.
-理想ランダム固溶体の相関関数を完全に再現する構造が得られたとき,
-Objective_function は Perfect_match と表示される.  
+Objective_function: 負に大きいほど, 数値上は理想ランダム固溶体に近いことを示している.
+理想ランダム固溶体の相関関数を完全に再現する構造が得られたとき, Perfect_match と表示される.  
 </p>
 mcsqs.log </br>
 新しい SQS を見つけるたびに,　その目的関数の値と bestcorr.out
