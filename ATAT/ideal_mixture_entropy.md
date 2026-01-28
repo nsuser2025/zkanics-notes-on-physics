@@ -26,7 +26,9 @@ $$
 ここで気体定数とボルツマン定数の関係式 $R=kN_{\rm Avo}$ を用いた.
 </p>
 $$
+\begin{align}
 S_{\rm m}^{\rm mix} &= N_{\rm Avo} S_{\rm mix} / N \\
 &= -kN_{\rm Avo} (x_{\rm A} \ln x_{\rm A} + x_{\rm B} \ln x_{\rm B}) \\
 &= -R (x_{\rm A} \ln x_{\rm A} + x_{\rm B} \ln x_{\rm B}) \tag{3}
+\end{align}
 $$
