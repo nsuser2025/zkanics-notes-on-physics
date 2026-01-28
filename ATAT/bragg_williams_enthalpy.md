@@ -42,9 +42,9 @@ A 元素の平均数 $N_{\rm AB}$ は $N_{\rm AB} = N_{\rm B}zx_{\rm A} = zNx_{\
 このように原子対の平均数でエンタルピーを表すので平均場近似とよばれる.
 </p> 
 <p>
-$N_{\rm AA}$, $N_{\rm BB}$ についても同様に $N_{\rm AA}=N_{\rm A}zx_{\rm A}/2$, 
-$N_{\rm BB}=N_{\rm B}zx_{\rm B}/2$ となる. $1/2$ は結合数のダブルカウントを打ち消すために必要である.
-$N_{\rm A} = Nx_{\rm A} = (1-x_{\rm B})N$ より $N_{\rm AA} = zN(1-x_{\rm B})x_{\rm A}$
+$N_{\rm AA}$ についても同様に $N_{\rm AA}=N_{\rm A}zx_{\rm A}/2$ となる.
+$1/2$ は結合数のダブルカウントを打ち消すために必要である. $N_{\rm A} = Nx_{\rm A} = (1-x_{\rm B})N$
+より $N_{\rm AA} = zN(1-x_{\rm B})x_{\rm A}=zNx_{\rm A}/2-zNx_{\rm A}x_{\rm B}/2=zN_{\rm A}/2-N_{\rm AB}/2$.
 </p>
 </span>
 
