@@ -10,6 +10,11 @@
 $G \approx E-TS$ と近似できる.
 </p>
 
+<span style="color: blue;">
 <p>
 <u>正則溶体近似にもとづく Gibbs 自由エネルギー</u>  
 </p>
+$$
+G &= x_{\rm A} ^{0}G_{\rm A} + x_{\rm B} ^{0}G_{\rm B} + \tag{1}    
+$$
+</span>
