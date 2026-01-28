@@ -36,7 +36,7 @@ $$
 $$
 \begin{align}
 E_{\rm m} &= N_{\rm Avo} \hat E = N_{\rm Avo} \biggl\{
-\frac{1}{2} z e_{\rm AA} x_{\rm A} + \frac{1}{2} z e_{\rm BB} x_{\rm B} + \hat \Omega_{AB}x_{\rm A}x_{\rm B} \biggr\}
+\frac{1}{2} z e_{\rm AA} x_{\rm A} + \frac{1}{2} z e_{\rm BB} x_{\rm B} + \hat \Omega_{AB}x_{\rm A}x_{\rm B} \biggr\} \\ \\
 &\equiv E_{\rm m}^{\rm A}x_{\rm A} + E_{\rm m}^{\rm B}x_{\rm B} + \Omega_{AB}x_{\rm A}x_{\rm B} \tag{4}
 \end{align}
 $$
