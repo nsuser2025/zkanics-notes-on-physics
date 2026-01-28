@@ -12,7 +12,7 @@ $G \approx E-TS$ と近似できる.
 
 <span style="color: blue;">
 <p>
-<u>二元正則溶体の Gibbs 自由エネルギー</u>  
+<u>二元正則溶体のモル Gibbs 自由エネルギー</u>  
 </p>
 $$
 \begin{align}
@@ -22,8 +22,26 @@ G_{\rm m} &\equiv \frac{G}{N} = x_{\rm A} {}^{0}G_{\rm m}^{\rm A} + x_{\rm B} {}
 \end{align}
 $$
 <p>
-$x_{\rm A} \equiv N_{\rm A} / (N_{\rm A} + N_{\rm B})$ $\cdots$ 元素 A のモル分率 </br>
+$N = N_{\rm A} + N_{\rm B}$ </br>
+$x_{\rm A} \equiv N_{\rm A} / N$ $\cdots$ 元素 A のモル分率 </br>
 ${}^{0}G_{\rm m}^{\rm A}$ $\cdots$ 元素 A（純物質）のモルギブス自由エネルギー </br>
-$\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2)$ $\cdots$ Van Laar 混合エンタルピー
+$\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2)$ $\cdots$ 相互作用パラメータ
+</p>
+<p>
+<u>二元理想溶体のモル Gibbs 自由エネルギー</u>  
+</p>
+<p>
+$\Omega_{\rm AB}=0$ のとき（1）は理想溶体のモル Gibbs 自由エネルギーになる.  
+</p>
+$$
+\begin{align}
+G_{\rm m} &\equiv \frac{G}{N} = x_{\rm A} {}^{0}G_{\rm m}^{\rm A} + x_{\rm B} {}^{0}G_{\rm m}^{\rm B} 
+  + RT (x_{\rm A}\ln x_{\rm A} + x_{\rm B} \ln x_{\rm B}) \tag{2}
+\end{align}
+$$
+<p>
+相互作用パラメータ $\Omega_{AB}$ がゼロになるということは, 元素 A と B の相互作用がゼロとして近似している
+というわけではなく, A - A, B - B, A - B 間の結合エネルギーが等しいということに注意する.
+全ての原子対の結合エネルギーが等しいとき, ランダムな固溶体が形成される.
 </p>
 </span>
