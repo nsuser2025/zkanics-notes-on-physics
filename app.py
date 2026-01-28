@@ -31,6 +31,7 @@ note_paths = {
     "dpd_Pan2010": "COLLOID/dpd_Pan2010.md",
     "kapsel_install": "KAPSEL/kapsel_install.md",
     "regular_solution": "ATAT/regular_solution.md",
+    "bragg_williams_enthalpy": "ATAT/bragg_williams_enthalpy.md",
     "sqs": "ATAT/sqs.md",
     "mcsqs": "ATAT/mcsqs.md",
     "sqs_quality": "ATAT/sqs_quality.md",
