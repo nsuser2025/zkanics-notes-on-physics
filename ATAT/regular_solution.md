@@ -22,7 +22,8 @@ G_{\rm m} &\equiv \frac{G}{N} = x_{\rm A} {}^{0}G_{\rm m}^{\rm A} + x_{\rm B} {}
 \end{align}
 $$
 <p>
-${}^{0}G_{\rm m}^{\rm A}$: 元素 A（純物質）のモルギブス自由エネルギー </br>
-$x_{\rm A} \equiv N_{\rm A} / (N_{\rm A} + N_{\rm B})$: 元素 A のモル分率
+$x_{\rm A} \equiv N_{\rm A} / (N_{\rm A} + N_{\rm B})$ $\cdots$ 元素 A のモル分率 </br>
+${}^{0}G_{\rm m}^{\rm A}$ $\cdots$ 元素 A（純物質）のモルギブス自由エネルギー </br>
+$\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2)$ $\cdots$ Van Laar 混合エンタルピー
 </p>
 </span>
