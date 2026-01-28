@@ -31,7 +31,7 @@ $\hat G$ $\cdots$ 1 原子あたりの Gibbs 自由エネルギー </br>
 $N_{\rm Avo}$ $\cdots$ アボガドロ定数, $N = N_{\rm A} + N_{\rm B}$ $\cdots$ 全粒子数 </br>
 $x_{\rm A} \equiv N_{\rm A} / N$ $\cdots$ 元素 A のモル分率 </br>
 ${}^{0}G_{\rm m}^{\rm A}$ $\cdots$ 元素 A（純物質）のモル Gibbs 自由エネルギー </br>
-$\Omega_{\rm AB} = N_{\rm Avo} z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2)$ $\cdots$ 相互作用パラメータ</br>
+$\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2) N_{\rm Avo}$ $\cdots$ 相互作用パラメータ</br>
 </p>
 <p>
 <u>二元理想溶体のモル Gibbs 自由エネルギー</u>  
