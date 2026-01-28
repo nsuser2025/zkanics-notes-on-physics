@@ -20,7 +20,7 @@ N_{\rm BB} &= \frac{1}{2}zN_{\rm B} - \frac{1}{2}N_{\rm AB} \tag{2}
 \end{align}
 $$
 <p>
-（2）を（1）に代入する. 
+（2）を（1）に代入すると, Bragg-Williams 近似の混合エンタルピーが得られる. 
 </p>
 $$
 \begin{align}
