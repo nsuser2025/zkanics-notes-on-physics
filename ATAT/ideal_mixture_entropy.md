@@ -17,7 +17,7 @@ S_{\rm mix} &= k(\ln N! - \ln N_{\rm A}! - \ln N_{\rm B}!) \\
 &\approx k(N\ln N - N - (N_{\rm A}\ln N_{\rm A} - N_{\rm A}) 
 - (N_{\rm B}\ln N_{\rm B} - N_{\rm B})) \\
 &= kN(\ln N - x_{\rm A}\ln N_{\rm A} - x_{\rm B}\ln N_{\rm B}) \\
-&= kN((x_{\rm A} + x_{\rm B}) \ln N - x_{\rm A} \ln N_{\rm A} - x_{\rm B} \ln N_{\rm B}) \\
+&= kN(\textcolor{red}{(x_{\rm A} + x_{\rm B})} \ln N - x_{\rm A} \ln N_{\rm A} - x_{\rm B} \ln N_{\rm B}) \\
 &= -kN (x_{\rm A} \ln x_{\rm A} + x_{\rm B} \ln x_{\rm B}) \tag{2}
 \end{align}
 $$
