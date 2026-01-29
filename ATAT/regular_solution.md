@@ -6,8 +6,9 @@ $G \approx E-TS$ と近似できる. </br>
 ここで, $N_{\rm A}$ ヶの元素 A と $N_{\rm B}$ ヶの元素 B からなる二元固溶体の
 混合 Gibbs 自由エネルギーは<span style="color: red;">
 $G_{\rm mix} \equiv G - x_{\rm A}{}^{0}G_{A} - x_{\rm B}{}^{0}G_{\rm B}$
-</span> で定義される. ただし, $N = N_{\rm A} + N_{\rm B}$,
-$x_{\rm A} = N_{\rm A}/N$, $x_{\rm B}=N_{\rm B}/N$ とする.
+</span> で定義される. ここで, $N = N_{\rm A} + N_{\rm B}$,
+$x_{\rm A} = N_{\rm A}/N$, ${}^{0}G_{\rm A}$ を元素 A の純物質の Gibbs
+自由エネルギーとする.
 </p>
 <p>
 正則溶体近似とは, Bragg-Williams 近似（平均場近似）によるエンタルピー項
@@ -33,9 +34,7 @@ G_{\rm m} &\equiv N_{\rm Avo}\frac{G}{N} = N_{\rm Avo} \hat G \\ \\
 $$
 <p>
 $\hat G$ $\cdots$ 1 原子あたりの Gibbs 自由エネルギー </br>
-$N_{\rm Avo}$ $\cdots$ アボガドロ定数, $N = N_{\rm A} + N_{\rm B}$ $\cdots$ 全粒子数 </br>
-$x_{\rm A} \equiv N_{\rm A} / N$ $\cdots$ 元素 A のモル分率 </br>
-${}^{0}G_{\rm m}^{\rm A}$ $\cdots$ 元素 A（純物質）のモル Gibbs 自由エネルギー </br>
+$N_{\rm Avo}$ $\cdots$ アボガドロ定数 </br>
 $\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2) N_{\rm Avo}$ $\cdots$ 相互作用パラメータ</br>
 </p>
 <p>
