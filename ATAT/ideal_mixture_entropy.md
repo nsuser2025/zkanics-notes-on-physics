@@ -9,7 +9,7 @@ W_{\rm mix} &= \frac{N!}{N_{\rm A}!N_{\rm B}!} \tag{1}
 $$
 <p>
 Boltzmann の混合エントロピー $S_{\rm mix} = k\ln W_{\rm mix}$
-に代入すると
+に代入し, Stirling の公式 $\ln N! \approx N\ln N - N$ を用いて展開すると
 </p>
 $$
 \begin{align}
