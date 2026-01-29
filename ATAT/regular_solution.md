@@ -5,7 +5,7 @@
 $G \approx E-TS$ と近似できる. </br>
 ここで, $N_{\rm A}$ ヶの元素 A と $N_{\rm B}$ ヶの元素 B からなる二元固溶体の
 混合 Gibbs 自由エネルギーは
-$G_{\rm mix} = G - x_{\rm A}{}^{0}G_{A} - x_{\rm B}{}^{0}G_{\rm B}$
+$G_{\rm mix} \equiv G - x_{\rm A}{}^{0}G_{A} - x_{\rm B}{}^{0}G_{\rm B}$
 で定義される.
 </p>
 <p>
