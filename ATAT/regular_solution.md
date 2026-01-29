@@ -3,13 +3,13 @@
 常温常圧下での固体では 1 原子あたりの $pV$ 項は $10^{-5}$ eV であるのに対し,
 内部エネルギーはおよそ $1$ eV/atom であるため, $E >> pV$ が成り立ち,
 $G \approx E-TS$ と近似できる. </br>
-ここで, $N_{\rm A}$ の元素 A と $N_{\rm B}$ の元素 B からなる二元固溶体の混合 Gibbs
-自由エネルギーは次式で定義される.
+ここで, $N_{\rm A}$ ヶの元素 A と $N_{\rm B}$ ヶの元素 B からなる二元固溶体の
+混合 Gibbs 自由エネルギーは次式で定義される.
 </p>
 $$
-\begin{aling}
+\begin{align}
 G_{\rm mix} &= G - x_{\rm A}{}^{0}G_{A} - x_{\rm B}{}^{0}G_{\rm B} \tag{1}
-\end{aling}
+\end{align}
 $$
 <p>
 正則溶体近似とは, Bragg-Williams 近似（平均場近似）によるエンタルピー項
