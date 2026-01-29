@@ -3,18 +3,16 @@
 常温常圧下での固体では 1 原子あたりの $pV$ 項は $10^{-5}$ eV であるのに対し,
 内部エネルギーはおよそ $1$ eV/atom であるため, $E >> pV$ が成り立ち,
 $G \approx E-TS$ と近似できる. </br>
-ここで, $N_{\rm A}$ ヶの元素 A と $N_{\rm B}$ ヶの元素 B からなる二元固溶体の
-混合モル Gibbs 自由エネルギーは次式で定義される. 
+二元固溶体の混合モル Gibbs 自由エネルギーは次式で定義される. 
 </p>
 $$
 \begin{align}
-G_{\rm m}^{\rm mix} &\equiv G_{\rm m} - N_{\rm A}{}^{0}G_{A} - N_{\rm B}{}^{0}G_{\rm B} \tag{1}
+G_{\rm m}^{\rm mix} &\equiv G_{\rm m} - x_{\rm A}{}^{0}G_{\rm m}^{A} - x_{\rm B}{}^{0}G_{\rm m}^{\rm B} \tag{1}
 \end{align}
 $$
 <p>
-$N = N_{\rm A} + N_{\rm B}$ $\cdots$ 全原子数,
-$x_{\rm A} = N_{\rm A}/N$ $\cdots$ 元素 A のモル分率 </br>
-${}^{0}G_{\rm A}$ $\cdots$ 元素 A からなる純物質の Gibbs 自由エネルギー  
+$x_{\rm A}$ $\cdots$ 元素 A のモル分率 </br>
+${}^{0}G_{\rm A}$ $\cdots$ 元素 A からなる純物質の モル Gibbs 自由エネルギー  
 </p>
 <p>
 正則溶体モデルでは, 混合エントロピーを理想混合とし,
